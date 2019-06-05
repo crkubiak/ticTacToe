@@ -12,7 +12,7 @@ class TicTacToeTest {
     @Test
     public void testCreateBoard() {
         TicTacToe testGame = new TicTacToe();
-        assertEquals("1|2|3\n-+-+-\n4|5|6\n-+-+-\n7|8|9", testGame.createBoard());
+        assertEquals("1|2|3\n-+-+-\n4|5|6\n-+-+-\n7|8|9", testGame.createBoard(), "Board creation failed");
     }
 
     @Test
